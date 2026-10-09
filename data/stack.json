@@ -1,0 +1,124 @@
+{
+  "_comment": "Single source of truth for awesome-ai-drama-production. Verified live on 2026-10-09. Focused on series-scoped agent workflows for episodic drama production.",
+  "updated": "2026-10-09",
+  "layers": [
+    {
+      "layer_name": "Series Production Platforms & Workflows",
+      "description": "Orchestration frameworks that manage episodic state, characters, and consistency across multiple scenes/episodes.",
+      "items": [
+        {
+          "name": "Drama Series Agent",
+          "repo": "binwu1/drama-series-agent",
+          "url": "https://github.com/binwu1/drama-series-agent",
+          "stars": 74,
+          "role": "Orchestrator",
+          "what": "Series-scoped Agent (Idea → Script → Cast → MiniMax/Ref2VA) that focuses on episodic serialization, character definitions, and asset reuse.",
+          "key_capabilities": "MiniMax H3 integration, Reference-to-Video (Ref2VA) consistency, multi-scene continuity."
+        },
+        {
+          "name": "Shuohao Skills",
+          "repo": "eternityspring/shuohao-skills",
+          "url": "https://github.com/eternityspring/shuohao-skills",
+          "stars": 4266,
+          "role": "Creative Workflow",
+          "what": "Modular skills for short drama production: storyboarding, character consistency (Cast), asset generation, script-to-scene planning.",
+          "key_capabilities": "Role-play agent architecture, modular narrative skillsets, asset cataloging."
+        }
+      ]
+    },
+    {
+      "layer_name": "Vision & Consistency Assets",
+      "description": "Skills and agents focused specifically on maintaining character likeness and visual style across shots.",
+      "items": [
+        {
+          "name": "Persona Director",
+          "repo": "18yz153/ComfyUI-Persona-Director",
+          "url": "https://github.com/18yz153/ComfyUI-Persona-Director",
+          "stars": 22,
+          "what": "ComfyUI node/agent pipeline ensuring character consistency in series rendering.",
+          "key_capabilities": "Persona-based conditioning, multi-stage consistency checkpoints.",
+          "role": "Pipeline Component"
+        },
+        {
+          "name": "Template AI Storyboard",
+          "repo": "Sri01729/template-ai-storyboard-consistent-character",
+          "url": "https://github.com/Sri01729/template-ai-storyboard-consistent-character",
+          "stars": 37,
+          "what": "Comprehensive storyboard system for managing persistent character visual cues.",
+          "key_capabilities": "Persistent visual metadata, style-transfer alignment.",
+          "role": "Pipeline Component"
+        }
+      ]
+    },
+    {
+      "layer_name": "Motion & Explainer Infrastructure",
+      "description": "Production pipelines for turning text/scripts into cinematic visual assets.",
+      "items": [
+        {
+          "name": "Video Shotcraft",
+          "repo": "Vincentwei1021/video-shotcraft",
+          "url": "https://github.com/Vincentwei1021/video-shotcraft",
+          "stars": 10750,
+          "what": "Studio-grade cinematic video generator for Claude Code/Codex with 150+ camera recipe cards.",
+          "key_capabilities": "Camera orchestration, motion-design, Remotion-native pipeline.",
+          "role": "Pipeline Component"
+        },
+        {
+          "name": "Video Talkcraft",
+          "repo": "Vincentwei1021/video-talkcraft",
+          "url": "https://github.com/Vincentwei1021/video-talkcraft",
+          "stars": 1410,
+          "what": "Voiceover-driven explainer studio. Syncs phonetic subtitles, typography, and B-roll callouts.",
+          "key_capabilities": "Whisper/TTS alignment, kinetic typography.",
+          "role": "Pipeline Component"
+        },
+        {
+          "name": "Vocaloid-Style Pipeline",
+          "repo": "EGSECDA/vocaloid-style-mv-pipeline",
+          "url": "https://github.com/EGSECDA/vocaloid-style-mv-pipeline",
+          "stars": 70,
+          "what": "Production pipeline and Claude Code skill specifically for MV (Music Video) production workflows.",
+          "key_capabilities": "MV-production sequencing, multi-node staging.",
+          "role": "Pipeline Component"
+        }
+      ]
+    }
+  ],
+  "verification_sources": [
+    {
+      "name": "drama-series-agent repo",
+      "url": "https://github.com/binwu1/drama-series-agent",
+      "expected_token": "Ref2VA"
+    },
+    {
+      "name": "shuohao-skills repo",
+      "url": "https://github.com/eternityspring/shuohao-skills",
+      "expected_token": "Agent"
+    },
+    {
+      "name": "Persona-Director repo",
+      "url": "https://github.com/18yz153/ComfyUI-Persona-Director",
+      "expected_token": "Consistency"
+    },
+    {
+      "name": "template-ai-storyboard repo",
+      "url": "https://github.com/Sri01729/template-ai-storyboard-consistent-character",
+      "expected_token": "Consistent"
+    },
+    {
+      "name": "video-shotcraft repo",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "expected_token": "Remotion"
+    },
+    {
+      "name": "video-talkcraft repo",
+      "url": "https://github.com/Vincentwei1021/video-talkcraft",
+      "expected_token": "Talkcraft"
+    },
+    {
+      "name": "vocaloid-style-mv-pipeline repo",
+      "url": "https://github.com/EGSECDA/vocaloid-style-mv-pipeline",
+      "expected_token": "Vocaloid"
+    }
+  ]
+}
