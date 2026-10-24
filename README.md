@@ -4,7 +4,7 @@
 
 **A curated architecture map & decision guide for building AI-powered series-scoped drama production pipelines.**
 
-Runtimes, consistency agents, asset managers, and visual orchestration skills — verified live (2026-10-24).
+Runtimes, consistency agents, asset managers, and visual orchestration skills — verified live (2026-10-25).
 
 > ⛔ **Not affiliated with any project listed.** Star counts are a live snapshot.
 > Every entry is verified for license, deployment model, and architectural layer.
