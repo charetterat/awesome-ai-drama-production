@@ -32,35 +32,27 @@ Runtimes, consistency agents, asset managers, and visual orchestration skills �
 
 ## ⚡ Quick Layer Overview
 
-
 ### Series Production Platforms & Workflows
 
 Orchestration frameworks that manage episodic state, characters, and consistency across multiple scenes/episodes.
-
 
 | Tool / Framework | Role | ★ |
 |---|---|---:|
 | [Drama Series Agent](https://github.com/binwu1/drama-series-agent) | Orchestrator | 74 |
 | [Shuohao Skills](https://github.com/eternityspring/shuohao-skills) | Creative Workflow | 4266 |
 
-
-
 ### Vision & Consistency Assets
 
 Skills and agents focused specifically on maintaining character likeness and visual style across shots.
-
 
 | Tool / Framework | Role | ★ |
 |---|---|---:|
 | [Persona Director](https://github.com/18yz153/ComfyUI-Persona-Director) | Pipeline Component | 22 |
 | [Template AI Storyboard](https://github.com/Sri01729/template-ai-storyboard-consistent-character) | Pipeline Component | 37 |
 
-
-
 ### Motion & Explainer Infrastructure
 
 Production pipelines for turning text/scripts into cinematic visual assets.
-
 
 | Tool / Framework | Role | ★ |
 |---|---|---:|
@@ -68,15 +60,11 @@ Production pipelines for turning text/scripts into cinematic visual assets.
 | [Video Talkcraft](https://github.com/Vincentwei1021/video-talkcraft) | Pipeline Component | 1410 |
 | [Vocaloid-Style Pipeline](https://github.com/EGSECDA/vocaloid-style-mv-pipeline) | Pipeline Component | 70 |
 
-
-
 ---
 
 ## 🔍 Detailed Component Decision Breakdown
 
-
 ### 📌 Series Production Platforms & Workflows
-
 
 #### [Drama Series Agent](https://github.com/binwu1/drama-series-agent) · ★74
 
@@ -100,7 +88,6 @@ Modular skills for short drama production: storyboarding, character consistency 
 
 ### 📌 Vision & Consistency Assets
 
-
 #### [Persona Director](https://github.com/18yz153/ComfyUI-Persona-Director) · ★22
 
 > **Role:** Pipeline Component
@@ -122,7 +109,6 @@ Comprehensive storyboard system for managing persistent character visual cues.
 ---
 
 ### 📌 Motion & Explainer Infrastructure
-
 
 #### [Video Shotcraft](https://github.com/Vincentwei1021/video-shotcraft) · ★10,750
 
